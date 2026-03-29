@@ -1,0 +1,130 @@
+/* === Общие стили === */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* === Заголовки === */
+h2 {
+    color: #1a365d;
+}
+
+h3 {
+    color: #2d3748;
+}
+
+/* === Текст === */
+p {
+    color: #4a5568;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* === Ссылки === */
+a {
+    color: #1a365d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Картинка === */
+img {
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* === Таблица === */
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+/* === Форма === */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+
+label {
+    margin-right: 10px;
+}
+
+input, select {
+    margin-bottom: 0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+}
+
+.checkbox-group,
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* === Кнопка === */
+button {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #2c5282;
+    cursor: pointer;
+}
+
+/* === Карточки навыков === */
+.skills {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #e2e8f0;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    color: #2d3748;
+}
