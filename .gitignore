@@ -1,0 +1,34 @@
+# --- ГЛАВНОЕ: Секреты и окружение ---
+# Никогда не коммитьте файлы с переменными окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- Системные файлы (мусор ОС) ---
+.DS_Store            # macOS
+.DS_Store?           # macOS
+._*                  # macOS
+Thumbs.db            # Windows
+ehthumbs.db          # Windows
+Desktop.ini          # Windows
+
+# --- Редакторы кода (настройки IDE) ---
+.vscode/             # VS Code
+.idea/               # JetBrains (WebStorm, PhpStorm и др.)
+*.swp                # Vim
+*.swo                # Vim
+*~                   # Backup files
+
+# --- Логи и временные файлы ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Папки зависимостей и сборки (если вдруг будете использовать) ---
+node_modules/
+dist/
+build/
